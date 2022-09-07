@@ -1,3 +1,6 @@
+:root {
+    --font: Montserrat, Roboto, Helvetica, Arial, sans-serif;
+}
 /* dark */
 .child- {
     background-color: #1F2937;
@@ -34,8 +37,17 @@ button{
     background-color: #10B981;
     color: white;
     border-radius: 10px;
-    padding: 0.6em;
+    padding: 0.8em;
+    font-family: var(--font);
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.5s;
+    position: relative;
 }
+button:hover {
+    transform: translateY(-0.3em);
+}
+
 .h1-{
     color: white;
 }
